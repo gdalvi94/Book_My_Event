@@ -1,0 +1,290 @@
+// mixins
+@mixin  border($value){
+  border-radius: $value;
+}
+
+
+
+//button styling
+
+.bttn1{
+    background-color: #fafafa;
+    	@include border(2px);
+
+    padding: 10px;
+    margin-left: 33%;
+    padding: 12px 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+    
+}
+.bttn2{
+    background-color:#fafafa;
+    padding: 10px;
+    padding: 12px 32px;
+    text-align: center;
+    display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+// event styling
+.li-picture{
+  background-image: url(../../resources/LoginRegister/images/Party.jpeg);
+    background-color: peachpuff;
+
+
+}
+
+.h-class{
+    height: 48 px;
+    color:white;
+}
+
+
+
+.bbtn1 , .bbtn2 {
+    width: 95%;
+    
+   
+}
+// deelte button styling
+.deleteButton{
+  width: 100%;
+  margin-top:10px;
+  padding: 8px 28px;
+  background-color: rgb(248,215,218);
+  color:rgb(106,26,33);
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.bbtn2{
+  padding: 8px 28px;
+  background-color: rgb(207,226,255);
+  color: rgb(6,53,122);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.bbtn1{
+  padding: 8px 28px;
+  color: rgb(12,65,46);
+  background-color:rgb(209,231,221);
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.divv3{
+  display: table-cell;
+  padding-left: 50px;
+  padding-right: 0px;
+ 
+}
+
+  .content {
+    width: fit-content;
+  }
+  ul.listt3 {
+    width: 100%;
+    list-style: none;
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  
+  ul.listt3 li {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul.listt3 li header {
+    width: 100%;
+    z-index: 99;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+  }
+  
+  ul.listt3 li strong {
+    margin-top: 12px;
+    font-size: 24px;
+    color: #444;
+  }
+  
+  div.divv4 {
+    margin-bottom: 50px;
+
+  }
+  ul.listt3{
+    display: grid;
+    // justify-content: center;
+  }
+  
+  ul.listt3 header div {
+    display: flex;
+   
+    flex-direction: row-reverse;
+  }
+  
+  ul.listt2 {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  ul.notifications li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    ul.listt3 {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    ul.listt3 {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+ // list card styling
+  .li-card {
+    // position:relative;
+    // z-index: 4;
+    
+    background-color: black !important;
+    width: 100%;
+    list-style: none;
+    border: 1px solid #dedede;
+    -webkit-box-shadow: 11px 13px 17px -11px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 11px 13px 17px -11px rgba(0, 0, 0, 0.43);
+    box-shadow: 11px 13px 17px -11px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    margin: 10px;
+    height: 500px;
+    
+  }
+  
+  .li-picture {
+    position: relative;
+    width: 93.5% !important;
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+   
+  }
+  
+  .li-card p {
+    color:white;
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  .li-card b {
+    width: 57px;
+    display: inline-block;
+    color:white;
+  }
+
+  .p1 , .p2{
+    color:white !important;
+    font-weight: bold;
+
+  }
+  
+  .li-card div {
+    padding: 0 10px 10px 10px;
+    background-color: black !important;
+    // opacity: 0.9;
+  }
+  
+  
+  .li-card a:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  
+// section 1 styling for create event and registration request
+  .sec1{
+   // background-image: url(../../resources/LoginRegister/images/bms_img.avif);
+   background-color: black;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,  url(../../resources/LoginRegister/images/bms_img.avif);
+
+    
+  }
+  .titlee{
+    padding-top: 40px;
+    text-align: center !important;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+// events filter
+  .b1 , .b2 , .b3 , .b4 , .b5 , .b6{
+    background-color:#fafafa;
+    font-weight: bold;
+    border:1px solid;
+    padding: 10px;
+    margin: 10px;
+    // padding: 8px 26px;
+    text-align: center;
+    display: inline-block;
+  font-size: 14px;
+ cursor: pointer;
+ border-radius: 10px;
+ color: red;
+ border: solid black 1px;
+  
+  }
+
+  
+
+.b1{
+  margin-left: 122px;
+  margin-top: 24px;
+}
+
+
+.linkk{
+  @include border(20px);
+
+  width:100%;
+  color: white !important;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+
+
+
+.ff{
+  background-color: black;
+  color: white;
+}
+.aa{
+  text-decoration: none;
+  color: white;
+}
+// footer section
+.copyright-text{
+  color: white;
+  text-align: center;
+}
+.listt1{
+  padding-inline-end: 20px;
+}

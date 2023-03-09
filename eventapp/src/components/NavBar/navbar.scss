@@ -1,0 +1,72 @@
+// Navbar login alignment
+.navLogin{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    height: 50px;
+    font-size: x-large;
+    padding: 10px;
+    font-size: x-large;
+    
+}
+
+.navbarevent{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    height: 50px;
+    list-style-type: none;
+    padding: 5px;
+    
+}
+// dashboard navbar styling
+.dash{
+    color:white;
+    font-size: large;
+    float:left;
+    margin-top:-46px;
+
+
+}
+// logout button styling
+.logoutbtn{
+    float: right;
+    margin-top: -64px;
+    background-color:#fafafa;
+    border:5px;
+    padding: 6px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+
+}
+// user name styling
+.userName{
+    float: right;
+    padding-right: 138px;
+    text-transform: capitalize;
+    color: aliceblue;
+    margin-top: -62px;
+}
+// navbar logo dashboard alignment
+.navbarLogodash{
+    float: center;
+    text-decoration: none;
+    font-size: bolder;
+    color: white;
+}
+.navbarLogo{
+    color:white;
+    text-decoration: none;
+
+}
+.dashNav{
+    text-align: center;
+    font-weight: bold;
+    // font-size: 60px;
+    
+
+}
